@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 1320px;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  gap: 20px;
+  display: flex;
+}
+
+.link a {
+  color: black;
+}
+
+.tel a {
+  font-size: 15px;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 20px;
+  background-color: orange;
+  border: 1px solid rgba(255, 255, 255, 0.752);
+}
+
+.langAndTel {
+  gap: 20px;
+  display: flex;
+}
+
+.logo img {
+  width: 30vh;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  gap: 30px;
+  display: none;
+  padding: 5px 0;
+  border: 1px solid;
+  position: absolute;
+  padding: 15px 35px 15px 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
