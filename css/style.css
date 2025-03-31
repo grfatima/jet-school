@@ -24,7 +24,7 @@ nav {
 }
 
 .link {
-  gap: 20px;
+  gap: 35px;
   display: flex;
 }
 
@@ -58,11 +58,14 @@ nav {
   gap: 30px;
   display: none;
   padding: 5px 0;
-  border: 1px solid;
   position: absolute;
   padding: 15px 35px 15px 0;
 }
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+.titleParaqraf a {
+  color: orange;
 }
