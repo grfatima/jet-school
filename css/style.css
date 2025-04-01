@@ -132,3 +132,61 @@ nav {
   width: 100%;
   margin-top: 10%;
 }
+
+.basliq-paraqraf {
+  text-align: center;
+  justify-items: center;
+
+  h2 {
+    width: 70vh;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: xx-large;
+  }
+
+  p {
+    font-weight: lighter;
+    margin: 30px 0 60px 0;
+  }
+}
+
+.boxs {
+  gap: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 290px 290px;
+
+  .box {
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    background-color: rgba(255, 166, 0, 0.168);
+  }
+
+  a {
+    color: black;
+    margin-top: 15px;
+    padding: 8px 20px;
+    border-radius: 70px;
+    font-weight: lighter;
+    display: inline-block;
+    background-color: white;
+  }
+
+  p {
+    width: 100%;
+    display: block;
+    padding: 20px 0 20px 15px;
+    border-radius: 15px;
+    font-weight: lighter;
+    border: 1px solid rgba(255, 166, 0, 0.345);
+    background-color: rgba(249, 245, 237, 0.8);
+  }
+
+  h3 {
+    width: 55vh;
+    margin: 30px 0;
+    font-weight: 500;
+    font-size: x-large;
+  }
+}
