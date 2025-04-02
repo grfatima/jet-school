@@ -60,6 +60,20 @@
   .basliq-paraqraf {
     margin-top: 20%;
   }
+
+  .linkss {
+    a {
+      width: 100%;
+    }
+
+    p {
+      width: 100%;
+    }
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -104,6 +118,16 @@
 
   .video {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .konums {
+    grid-template-columns: 1fr;
+
+    iframe {
+      width: 100%;
+      border-radius: 30px;
+      height: 300px;
+    }
   }
 }
 
