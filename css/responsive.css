@@ -93,6 +93,18 @@
       font-size: x-large;
     }
   }
+
+  .basliq-paraqraf {
+    margin-top: 20%;
+  }
+
+  .paraqraf-basliq {
+    margin-top: 30%;
+  }
+
+  .video {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @media (max-width: 576px) {
@@ -114,10 +126,18 @@
 
   .boxs {
     grid-template-rows: 350px 350px;
+
     h3 {
       width: 30vh;
       font-weight: 500;
       font-size: x-large;
     }
+  }
+  .basliq-paraqraf {
+    margin-top: 30%;
+  }
+
+  .paraqraf-basliq {
+    margin-top: 30%;
   }
 }
