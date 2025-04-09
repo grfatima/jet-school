@@ -71,6 +71,7 @@ nav {
 }
 
 .mainDropItem {
+  cursor: pointer;
   font-size: small;
   padding: 10px 14px;
   border-radius: 20px;
@@ -78,14 +79,27 @@ nav {
 }
 
 .dropList {
+  height: 0;
+  opacity: 0;
   width: 100%;
-  display: none;
+  cursor: pointer;
   margin-top: 5px;
   font-size: small;
+  padding: 5px 14px;
+  visibility: hidden;
   position: absolute;
-  padding: 10px 14px;
   border-radius: 20px;
   border: 1px solid #ddd;
+
+  li {
+    margin: 5px 0;
+  }
+}
+
+.show {
+  opacity: 1;
+  height: fit-content;
+  visibility: visible;
 }
 
 .phone {
