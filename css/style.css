@@ -55,25 +55,29 @@ nav {
   border: 1px solid orange;
 }
 
-.langAndTel {
+.buttonss {
   gap: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.lang {
+.dropdown-menu2 {
   position: relative;
 }
 
-.mainItem {
+.arrow {
+  margin-left: 5px;
+}
+
+.mainDropItem {
   font-size: small;
   padding: 10px 14px;
   border-radius: 20px;
   border: 1px solid #ddd;
 }
 
-.dropdownItem {
+.dropList {
   width: 100%;
   display: none;
   margin-top: 5px;
